@@ -1,0 +1,79 @@
+site_name: "nbtc@23"
+site_description: "NBTC Documentation Manual"
+site_url: ""
+
+theme:
+  name: material
+  language: th
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - toc.integrate
+  icon:
+    logo: material/file-document
+  font:
+    text: Noto Sans Thai
+    code: Fira Code
+
+plugins:
+  - search:
+      lang:
+        - th
+        - en
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: false
+  - meta
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Guide:
+      - guide/index.md
+      - Getting Started: guide/getting-started.md
+      - แผนปฏิบัติงาน 2569: guide/plan-2569.md
+      - พารามิเตอร์การตรวจวัด: guide/parameter.md
+      - คู่มือ EMF: guide/emf-guide.md
+  - เตรียมตัวลงพื้นที่: guide/fieldwork.md
+  - Calendar: calendar.md

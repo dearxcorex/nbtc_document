@@ -1,0 +1,11 @@
+[project]
+name = "nbtc-document"
+version = "0.1.0"
+description = "nbtc@23 Documentation Manual"
+requires-python = ">=3.11"
+dependencies = [
+    "zensical",
+]
+
+[tool.uv]
+package = false

@@ -1,0 +1,7 @@
+site/
+__pycache__/
+.venv/
+*.pyc
+.obsidian/
+.DS_Store
+.env
