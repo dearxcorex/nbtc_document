@@ -1,6 +1,6 @@
 site_name: "nbtc@23"
 site_description: "NBTC Documentation Manual"
-site_url: ""
+site_url: "https://dearxcorex.github.io/nbtc_document/"
 
 theme:
   name: material

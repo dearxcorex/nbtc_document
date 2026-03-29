@@ -25,10 +25,10 @@ jobs:
           version: "latest"
 
       - name: Install dependencies
-        run: uv pip install --system zensical
+        run: uv venv && uv pip install zensical
 
       - name: Build site
-        run: zensical build
+        run: uv run zensical build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
