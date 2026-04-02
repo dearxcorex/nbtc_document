@@ -1,16 +1,17 @@
 ---
-title: Guide
+title: คู่มือปฏิบัติงาน
 tags:
   - guide
 ---
 
-# Guide
+# คู่มือปฏิบัติงาน
 
-Documentation guides for the nbtc@23 project.
+คู่มือและเอกสารประกอบการปฏิบัติงานตรวจสอบ กสทช.
 
 ## Sections
 
-- [Getting Started](getting-started.md) - Set up and configure the project
 - [แผนปฏิบัติงาน 2569](plan-2569.md) - สรุปแผนตรวจสอบและกำกับดูแลประจำปี
-- [พารามิเตอร์การตรวจวัด](parameter.md) - อธิบาย Occupied BW, Frequency Deviation, Spurious + วิธีตั้งค่า Spectrum Analyzer
-- [คู่มือ EMF](emf-guide.md) - พื้นฐาน EMF, มาตรฐาน ICNIRP, วิธีวัด, เกณฑ์ผ่าน/ไม่ผ่าน
+- [เตรียมตัวลงพื้นที่](fieldwork.md) - เตรียมอุปกรณ์และขั้นตอนก่อนลงพื้นที่
+- [คู่มือตรวจ FM](parameter.md) - อธิบาย Occupied BW, Frequency Deviation, Spurious, Intermodulation
+- [คู่มือการตรวจวัด EMF](emf-guide.md) - พื้นฐาน EMF, มาตรฐาน ICNIRP, วิธีวัด, เกณฑ์ผ่าน/ไม่ผ่าน
+- [พื้นฐาน Spectrum Analyzer](spectrum-analyzer.md) - วิธีตั้งค่า RBW, VBW, Span, Trace Mode, Detector, Marker

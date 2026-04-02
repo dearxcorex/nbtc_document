@@ -16,12 +16,14 @@ Welcome to the **nbtc@23** documentation manual.
 
 ## Quick Links
 
-- [Getting Started Guide](guide/getting-started.md)
+- [แผนปฏิบัติงาน 2569](guide/plan-2569.md) - แผนตรวจสอบประจำปี
+- [เตรียมตัวลงพื้นที่](guide/fieldwork.md) - เตรียมอุปกรณ์ก่อนลงพื้นที่
 - [Calendar & Tasks](calendar.md)
 
 ## Structure
 
 | Section | Description |
 |---------|-------------|
-| **Guide** | Step-by-step guides and tutorials |
+| **คู่มือปฏิบัติงาน** | คู่มือการตรวจสอบ แผนงาน และเอกสารประกอบ |
+| **สำหรับนักพัฒนา** | ตั้งค่าและพัฒนาเว็บไซต์เอกสาร |
 | **Calendar** | View Google Calendar tasks and schedule |

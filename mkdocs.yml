@@ -69,11 +69,13 @@ extra_css:
 
 nav:
   - Home: index.md
-  - Guide:
+  - คู่มือปฏิบัติงาน:
       - guide/index.md
-      - Getting Started: guide/getting-started.md
       - แผนปฏิบัติงาน 2569: guide/plan-2569.md
-      - พารามิเตอร์การตรวจวัด: guide/parameter.md
-      - คู่มือ EMF: guide/emf-guide.md
-  - เตรียมตัวลงพื้นที่: guide/fieldwork.md
+      - เตรียมตัวลงพื้นที่: guide/fieldwork.md
+      - คู่มือตรวจ FM: guide/parameter.md
+      - คู่มือการตรวจวัด EMF: guide/emf-guide.md
+      - พื้นฐาน Spectrum Analyzer: guide/spectrum-analyzer.md
+  - สำหรับนักพัฒนา:
+      - Getting Started: guide/getting-started.md
   - Calendar: calendar.md
