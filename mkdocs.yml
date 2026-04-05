@@ -75,6 +75,7 @@ nav:
       - เตรียมตัวลงพื้นที่: guide/fieldwork.md
       - คู่มือตรวจ FM: guide/parameter.md
       - คู่มือการตรวจวัด EMF: guide/emf-guide.md
+      - คู่มือวัด Frequency Occupancy: guide/frequency-occupancy.md
       - พื้นฐาน Spectrum Analyzer: guide/spectrum-analyzer.md
   - สำหรับนักพัฒนา:
       - Getting Started: guide/getting-started.md
