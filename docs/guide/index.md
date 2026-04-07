@@ -16,3 +16,4 @@ tags:
 - [คู่มือการตรวจวัด EMF](emf-guide.md) - พื้นฐาน EMF, มาตรฐาน ICNIRP, วิธีวัด, เกณฑ์ผ่าน/ไม่ผ่าน
 - [คู่มือวัด Frequency Occupancy](frequency-occupancy.md) - FCO, FBO, Threshold, วิธีวัดตาม ITU-R SM.1880
 - [พื้นฐาน Spectrum Analyzer](spectrum-analyzer.md) - วิธีตั้งค่า RBW, VBW, Span, Trace Mode, Detector, Marker
+- [คู่มือ R&S NESTOR](nestor.md) - วิเคราะห์ Cell Tower ด้วย NESTOR: ACD, SCN, COV, CPE, BSA

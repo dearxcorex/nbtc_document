@@ -77,6 +77,7 @@ nav:
       - คู่มือการตรวจวัด EMF: guide/emf-guide.md
       - คู่มือวัด Frequency Occupancy: guide/frequency-occupancy.md
       - พื้นฐาน Spectrum Analyzer: guide/spectrum-analyzer.md
+      - คู่มือ R&S NESTOR: guide/nestor.md
   - สำหรับนักพัฒนา:
       - Getting Started: guide/getting-started.md
   - Calendar: calendar.md
