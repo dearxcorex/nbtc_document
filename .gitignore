@@ -5,3 +5,6 @@ __pycache__/
 .obsidian/
 .DS_Store
 .env
+
+# Large PDF manuals
+docs/assets/NESTOR_User_Manual_V21_2.pdf

@@ -1,4 +1,177 @@
+/* Hero section */
+.hero {
+  text-align: center;
+  padding: 2.5rem 1rem 1.5rem;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+  background: linear-gradient(135deg, #3f51b5, #5c6bc0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+[data-md-color-scheme="slate"] .hero h1 {
+  background: linear-gradient(135deg, #7986cb, #9fa8da);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.hero p {
+  font-size: 1.05rem;
+  opacity: 0.7;
+  margin: 0.3rem 0;
+}
+
+.hero + hr {
+  margin: 1.5rem 0;
+  border: none;
+  border-top: 2px solid #e0e0e0;
+}
+
+[data-md-color-scheme="slate"] .hero + hr {
+  border-top-color: #333;
+}
+
+/* Grid cards layout */
+.grid.cards {
+  margin: 0.8rem 0 2rem;
+}
+
+.grid.cards > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 0.8rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.grid.cards > ul > li {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.2rem 1.4rem;
+  transition: border-color 0.2s, box-shadow 0.25s, transform 0.2s;
+  background: var(--md-default-bg-color, #fff);
+}
+
+[data-md-color-scheme="slate"] .grid.cards > ul > li {
+  border-color: #404040;
+  background: #1e1e1e;
+}
+
+.grid.cards > ul > li:hover {
+  border-color: #3f51b5;
+  box-shadow: 0 4px 12px rgba(63, 81, 181, 0.15);
+  transform: translateY(-2px);
+}
+
+[data-md-color-scheme="slate"] .grid.cards > ul > li:hover {
+  border-color: #7986cb;
+  box-shadow: 0 4px 12px rgba(121, 134, 203, 0.2);
+}
+
+/* Card title (first paragraph with icon) */
+.grid.cards > ul > li > p:first-child {
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin: 0 0 0.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Card divider */
+.grid.cards > ul > li > hr {
+  margin: 0.6rem 0;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+[data-md-color-scheme="slate"] .grid.cards > ul > li > hr {
+  border-top-color: #333;
+}
+
+/* Card description */
+.grid.cards > ul > li > p:nth-child(3) {
+  font-size: 0.9rem;
+  opacity: 0.75;
+  margin: 0 0 0.8rem;
+  line-height: 1.5;
+}
+
+/* Card link (last paragraph) */
+.grid.cards > ul > li > p:last-child {
+  margin-bottom: 0;
+}
+
+.grid.cards > ul > li > p:last-child a {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #3f51b5;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: gap 0.2s;
+}
+
+[data-md-color-scheme="slate"] .grid.cards > ul > li > p:last-child a {
+  color: #9fa8da;
+}
+
+.grid.cards > ul > li:hover > p:last-child a {
+  gap: 0.5rem;
+}
+
+/* Icon sizing in cards */
+.grid.cards .twemoji.lg svg {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.grid.cards .twemoji svg {
+  fill: #3f51b5;
+}
+
+[data-md-color-scheme="slate"] .grid.cards .twemoji svg {
+  fill: #9fa8da;
+}
+
+/* Section headers above cards */
+.md-content h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.3rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-bottom: none;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .grid.cards > ul {
+    grid-template-columns: 1fr;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 0.95rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .grid.cards > ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ===================== */
 /* Google Calendar embed */
+/* ===================== */
 .calendar-container {
   position: relative;
   width: 100%;
@@ -18,12 +191,10 @@
   border-radius: 8px;
 }
 
-/* Dark mode calendar wrapper */
 [data-md-color-scheme="slate"] .calendar-container {
   filter: invert(0.88) hue-rotate(180deg);
 }
 
-/* Responsive adjustments */
 @media screen and (max-width: 768px) {
   .calendar-container {
     padding-bottom: 100%;
